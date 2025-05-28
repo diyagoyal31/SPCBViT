@@ -7,7 +7,6 @@ This repository contains the code and resources for the SPCBViTNet model, a hybr
 ## Table of Contents
 
 - [Project Overview](#project-overview)  
-- [Repository Structure](#repository-structure)  
 - [Datasets](#datasets)  
 - [Preprocessing](#preprocessing)  
 - [Data Splitting](#data-splitting)  
@@ -23,64 +22,6 @@ This repository contains the code and resources for the SPCBViTNet model, a hybr
 ## Project Overview
 
 SPCBViTNet integrates spatial pyramid convolutional blocks with transformer-based architectures to classify skin lesion images into diagnostic categories. The codebase includes preprocessing, data splitting, training, and ablation studies to evaluate different model variants and hyperparameters.
-
----
-
-## Repository Structure
-
-├── Dataset
-│   ├── HAM10000 # Place raw HAM10000 dataset here
-│   └── PAD-UFES-20 # Place raw PAD-UFES-20 dataset here
-├── Research_gap
-│   └── Literature_analysis.csv # Excel with gap analysis from literature
-├── Result
-│   └── model_comparison.xlsx # Comparative results of models
-├── metadata
-│   ├── HAM10000_metadata.csv # Metadata for HAM10000 images
-│   └── metadata_PAD.csv # Metadata for PAD-UFES-20 images
-├── models
-│   ├── HAM10000
-│   │   ├── DeiT_SPCB.ipynb
-│   │   ├── Densenet121_SPCB.ipynb
-│   │   ├── ViT(base16-21k)_SPCB.ipynb
-│   │   ├── ablation_study
-│   │   │   ├── epochs_comparison
-│   │   │   │   ├── 30_epochs.ipynb
-│   │   │   │   ├── 50_epochs.ipynb
-│   │   │   │   ├── 60_epochs.ipynb
-│   │   │   │   └── 70_epochs.ipynb
-│   │   │   └── optimizer_comparison
-│   │   │   ├── Adagrad.ipynb
-│   │   │   ├── Adam.ipynb
-│   │   │   ├── RMSProp.ipynb
-│   │   │   ├── SGD_momentum.ipynb
-│   │   │   └── SGS_momentum.ipynb
-│   │   ├── googlenet_SPCB.ipynb
-│   │   ├── resnet101_SPCB.ipynb
-│   │   ├── resnet50_SPCB.ipynb
-│   │   ├── vgg16_SPCB.ipynb
-│   │   └── vgg19_SPCB.ipynb
-│   └── PAD-UFES-20
-│   ├── SPCB_DeiT.ipynb
-│   ├── SPCB_ViTbase16.ipynb
-│   └── ablation_study
-│   ├── epochs_comparison
-│   │   ├── 30_epochs.ipynb
-│   │   ├── 50_epochs.ipynb
-│   │   ├── 60_epochs.ipynb
-│   │   └── 70_epochs.ipynb
-│   └── optimizer_comparison
-│   ├── Adam.ipynb
-│   ├── Agadrad.ipynb
-│   ├── RMSProp.ipynb
-│   └── SGD_momentum.ipynb
-├── preprocess.ipynb # Preprocessing notebook (hair removal, normalization)
-├── requirements.txt # Python dependencies
-└── splits.ipynb # Data splitting notebook (train-test splits)
-
-yaml
-Copy
-Edit
 
 ---
 
