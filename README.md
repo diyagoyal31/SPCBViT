@@ -165,7 +165,7 @@ A: Trained on NVIDIA A100 GPUs, but smaller GPUs are also possible with reduced 
 
 ## DOI Links
 
-- **Code DOI:** [Add your Zenodo DOI link here after publishing]  
+- **Code DOI:** https://doi.org/10.5281/zenodo.15533168  
 - **HAM10000 Dataset:** https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000  
 - **PAD-UFES-20 Dataset:** https://www.kaggle.com/datasets/mahdavi1202/skin-cancer
 
