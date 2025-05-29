@@ -15,7 +15,7 @@ This repository contains the code and resources for the SPCBViTNet model, a hybr
 - [Training Details](#training-details)  
 - [Results](#results)  
 - [FAQ](#faq)  
-- [DOI Links](#doi-links)  
+- [Links](#links)  
 
 ---
 
@@ -60,7 +60,7 @@ SPCBViTNet integrates spatial pyramid convolutional blocks with transformer-base
 
 1. Download datasets from official websites and place inside `Dataset/` folder.  
 2. Run `preprocess.ipynb` for hair removal and normalization preprocessing.  
-3. Run `splits.ipynb` to create train-test splits.  
+3. Run `splits.ipynb`.  
 4. Select your desired model notebook from `models/` and update dataset paths as needed.  
 5. Execute the notebook to train and evaluate the model.  
 6. Ablation notebooks allow experimenting with different hyperparameters.
@@ -104,9 +104,8 @@ A: Trained on NVIDIA A100 GPUs, but smaller GPUs are also possible with reduced 
 
 ---
 
-## DOI Links
+## Links
 
-- **Code DOI:** https://doi.org/10.5281/zenodo.15533168  
 - **HAM10000 Dataset:** https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000  
 - **PAD-UFES-20 Dataset:** https://www.kaggle.com/datasets/mahdavi1202/skin-cancer
 
