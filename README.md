@@ -1,4 +1,4 @@
-# SPCBViTNet: Skin Cancer Classification with SPCB and Vision Transformers
+# SPCBViTNet: Enhancing Skin Cancer Diagnosis with Multi-Scale Vision Transformers and Adaptive Spatial-Channel Attention
 
 This repository contains the code and resources for the SPCBViTNet model, a hybrid architecture combining Spatial Pyramid Convolutional Blocks (SPCB) with Vision Transformers for skin cancer classification. The model has been evaluated on two benchmark datasets — **HAM10000** and **PAD-UFES-20** — with preprocessing techniques such as hair removal applied to improve accuracy.
 
